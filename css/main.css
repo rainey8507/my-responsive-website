@@ -192,6 +192,12 @@ footer .content-wrapper {
   flex-direction: column;
   flex-wrap: nowrap;
 }
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
 /******* MOBILES STYLE *******/
 #about {
   display: flex;
@@ -216,6 +222,7 @@ footer .content-wrapper {
 }
 #portfolio h4 {color: #000; text-align: center;}
 footer {background-color: #4E7835;}
+
 .section-three { 
   display: flex; 
   justify-content: center; 
@@ -238,7 +245,9 @@ footer {background-color: #4E7835;}
 }
 .section-three #contact a {color: #fff;}
 
-.section-three .content-wrapper .address {
+.section-three .content-wrapper .address,
+.section-three .content-wrapper .contact,
+.section-three .content-wrapper .socials {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -246,19 +255,7 @@ footer {background-color: #4E7835;}
   
 }
 
-.section-three .content-wrapper .contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
-}
-.section-three .content-wrapper .socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+
 .social-icons p i {
   color: #fff;
   font-size: 1.3em;
