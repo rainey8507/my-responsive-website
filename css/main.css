@@ -112,7 +112,7 @@ h1 {
   color:#000;
   font-weight: 700;
 }
-
+h1 span {color: #4E7835;}
 h2 {font-size: 1.5em; color: #000; font-weight: 400;}
 h3 {
   font-family: 'Libre Baskerville', serif; 
@@ -154,7 +154,7 @@ header h2 {
   padding-bottom: 30px;
 }
 header nav {
-  width: 20%;
+  width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -169,6 +169,8 @@ header nav ul {
   width: 100%;
 }
 header nav ul a {padding-right: 1em; text-transform: uppercase;}
+header nav ul a:hover {color: #4E7835;}
+header nav ul a:visited {color: #000;}
 #about .content-wrapper {
   display: flex;
   justify-content: center;
@@ -259,10 +261,10 @@ footer .social-icons {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  
 }
-
-
+#contact p {
+  font-weight: 300;
+}
 .social-icons p i {
   color: #fff;
   font-size: 1.3em;
@@ -279,10 +281,40 @@ footer small {color: #fff;}
 /**** FOR TABLET DEVICES ****/
 @media only screen and (min-width: 768px) {
   /*** General Styles ***/
+  
   h1 {font-size: 2.5em;}
-  h2 {font-size: 2em;}
+  h2 {font-size: 2em; padding-left: 2em;}
   h3 {font-size: 1.5em;}
-  h4,p {font-size: 1.125em;}
+  h4,p, a {font-size: 1.125em;}
+  a:hover {color: #4E7835;}
+  a:visited {color: black}
+  .content-wrapper {margin: 0; padding:  0;}
+ 
+  /**ABOUT ***/
+  .section-one {width: 70%;}
+
+  /*** FOOTER ***/
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  footer .section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+   .section-three .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  footer small {
+    width: auto;
+  }
 }
 /* ==========================================================================
    Helper classes
