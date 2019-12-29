@@ -203,6 +203,7 @@ footer .social-icons {
   flex-flow: row wrap;
 }
 /******* MOBILES STYLE *******/
+/*** ABOUT ***/
 #about {
   display: flex;
   justify-content: center;
@@ -217,6 +218,7 @@ footer .social-icons {
 }
 #about p {color: #fff;}
 
+/***** PORTFOLIO ****/
 #portfolio {
   display: flex;
   justify-content: center;
@@ -226,6 +228,7 @@ footer .social-icons {
 }
 #portfolio h4 {color: #000; text-align: center;}
 
+/**** FOOTER ****/
 
 .section-three { 
   display: flex; 
@@ -272,6 +275,15 @@ footer .social-icons {
   flex-flow: row wrap;
 }
 footer small {color: #fff;}
+
+/**** FOR TABLET DEVICES ****/
+@media only screen and (min-width: 768px) {
+  /*** General Styles ***/
+  h1 {font-size: 2.5em;}
+  h2 {font-size: 2em;}
+  h3 {font-size: 1.5em;}
+  h4,p {font-size: 1.125em;}
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
