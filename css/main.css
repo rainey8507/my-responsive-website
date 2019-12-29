@@ -150,6 +150,9 @@ header .content-wrapper {
 header h1 {
   padding: 50px 0 0 0;
 }
+header h2 {
+  padding-bottom: 30px;
+}
 header nav {
   width: 20%;
   display: flex;
@@ -185,6 +188,7 @@ header nav ul a {padding-right: 1em; text-transform: uppercase;}
   flex-direction: column;
   flex-wrap: wrap;
 }
+footer {background-color: #4E7835;}
 footer .content-wrapper {
   display: flex;
   justify-content: center;
@@ -221,7 +225,7 @@ footer .social-icons {
   flex-wrap: nowrap;
 }
 #portfolio h4 {color: #000; text-align: center;}
-footer {background-color: #4E7835;}
+
 
 .section-three { 
   display: flex; 
