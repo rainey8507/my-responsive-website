@@ -212,13 +212,13 @@ footer .social-icons {
   align-items: center;
   flex-flow: row wrap;
   background-color: #4E7835;
-  padding: 0 10px 20px 0;
+  padding: 0 10px 10px 0;
 }
 #about h3 {
   text-transform: capitalize;
   color: #fff;
 }
-#about p {color: #fff;}
+#about p {color: #fff; line-height: 1.5;}
 
 /***** PORTFOLIO ****/
 #portfolio {
@@ -252,7 +252,7 @@ footer .social-icons {
 .section-three p {
   color: #fff;
 }
-.section-three #contact a {color: #fff;}
+.section-three #contact a {color: #fff; text-decoration: none; font-weight: lighter;}
 
 .section-three .content-wrapper .address,
 .section-three .content-wrapper .contact,
@@ -262,9 +262,7 @@ footer .social-icons {
   align-items: center;
   flex-flow: column wrap;
 }
-#contact p {
-  font-weight: 300;
-}
+
 .social-icons p i {
   color: #fff;
   font-size: 1.3em;
@@ -288,33 +286,19 @@ footer small {color: #fff;}
   h4,p, a {font-size: 1.125em;}
   a:hover {color: #4E7835;}
   a:visited {color: black}
-  .content-wrapper {margin: 0; padding:  0;}
+  
  
   /**ABOUT ***/
   .section-one {width: 70%;}
 
   /*** FOOTER ***/
-  footer {
+  .section-three .content-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-  }
-  footer .section-three {
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
   }
-   .section-three .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-  footer small {
-    width: auto;
-  }
+  .contact p a {font-weight: normal;}
 }
 /* ==========================================================================
    Helper classes
