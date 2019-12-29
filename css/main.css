@@ -252,14 +252,14 @@ footer {background-color: #4E7835;}
   align-items: center;
   flex-flow: column wrap;
 }
-.section-three .content-wrapper .sns {
+.section-three .content-wrapper .socials {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.sns p i {
+.social-icons p i {
   color: #fff;
   font-size: 1.3em;
   padding-right: 1em;
